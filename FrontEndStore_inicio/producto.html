@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fronded Store</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400;1,700&family=Staatliches&display=swap');
+    </style>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/logo2.png" alt="Logotipo">
+        </a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+        <a class="navegacion__enlace navegacion__enlace--activo" href="producto.html">Comprar</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Productos</h1>
+        <h1>Reac JS</h1>
+
+        <div class="camisa">
+            <img class="camisa_imagen" src="img/3.jpg" alt="imagen del producto">
+            <div class="camisa__contenido">
+                <p>dapibus dignissim. Etiam venenatis porttitor leo non gravida. Proin ipsum eros, auctor non ipsum ac,
+                    mollis varius erat dapibus dignissim. Etiam venenatis porttitor leo non gravida. Proin ipsum eros,
+                    auctor non ipsum ac,
+                    mollis varius erat</p>
+                <form class="formulario">
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Seleccionar talla --</option>
+                        <option>Chica</option>
+                        <option>Mediana</option>
+                        <option>Grande</option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer_texto">Front End Store - todos los derechos reservados </p>
+    </footer>
+</body>
+
+</html>
